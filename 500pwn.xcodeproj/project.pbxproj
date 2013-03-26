@@ -23,6 +23,15 @@
 		834EF86B16A343DA005E87FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834EF84616A343DA005E87FC /* Foundation.framework */; };
 		834EF87316A343DA005E87FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 834EF87116A343DA005E87FC /* InfoPlist.strings */; };
 		834EF87616A343DA005E87FC /* _00pwnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834EF87516A343DA005E87FC /* _00pwnTests.m */; };
+		838E074E16A3D59700DD21E8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E074D16A3D59700DD21E8 /* libxml2.dylib */; };
+		838E075016A3D6AF00DD21E8 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E074F16A3D6AF00DD21E8 /* libxml2.2.dylib */; };
+		838E076516A3DA0500DD21E8 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E076216A3DA0500DD21E8 /* HTMLNode.m */; };
+		838E076616A3DA0500DD21E8 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E076416A3DA0500DD21E8 /* HTMLParser.m */; };
+		838E076716A3DA0C00DD21E8 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E076216A3DA0500DD21E8 /* HTMLNode.m */; };
+		838E076816A3DA0C00DD21E8 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E076416A3DA0500DD21E8 /* HTMLParser.m */; };
+		83AC75FF16FFFAFC00AC37BC /* pwnlogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AC75FE16FFFAFC00AC37BC /* pwnlogo1.png */; };
+		83AC760116FFFCC100AC37BC /* photo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83AC760016FFFCC100AC37BC /* photo.PNG */; };
+		83AC760316FFFD1100AC37BC /* retina.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83AC760216FFFD1100AC37BC /* retina.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,15 @@
 		834EF87216A343DA005E87FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		834EF87416A343DA005E87FC /* _00pwnTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _00pwnTests.h; sourceTree = "<group>"; };
 		834EF87516A343DA005E87FC /* _00pwnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00pwnTests.m; sourceTree = "<group>"; };
+		838E074D16A3D59700DD21E8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		838E074F16A3D6AF00DD21E8 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		838E076116A3DA0500DD21E8 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		838E076216A3DA0500DD21E8 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		838E076316A3DA0500DD21E8 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		838E076416A3DA0500DD21E8 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		83AC75FE16FFFAFC00AC37BC /* pwnlogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pwnlogo1.png; sourceTree = "<group>"; };
+		83AC760016FFFCC100AC37BC /* photo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.PNG; sourceTree = "<group>"; };
+		83AC760216FFFD1100AC37BC /* retina.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retina.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838E075016A3D6AF00DD21E8 /* libxml2.2.dylib in Frameworks */,
+				838E074E16A3D59700DD21E8 /* libxml2.dylib in Frameworks */,
 				834EF84516A343DA005E87FC /* UIKit.framework in Frameworks */,
 				834EF84716A343DA005E87FC /* Foundation.framework in Frameworks */,
 				834EF84916A343DA005E87FC /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +107,10 @@
 		834EF83816A343DA005E87FC = {
 			isa = PBXGroup;
 			children = (
+				83AC760216FFFD1100AC37BC /* retina.PNG */,
+				83AC760016FFFCC100AC37BC /* photo.PNG */,
+				838E074F16A3D6AF00DD21E8 /* libxml2.2.dylib */,
+				838E074D16A3D59700DD21E8 /* libxml2.dylib */,
 				834EF84A16A343DA005E87FC /* 500pwn */,
 				834EF86E16A343DA005E87FC /* 500pwnTests */,
 				834EF84316A343DA005E87FC /* Frameworks */,
@@ -117,6 +141,11 @@
 		834EF84A16A343DA005E87FC /* 500pwn */ = {
 			isa = PBXGroup;
 			children = (
+				83AC75FE16FFFAFC00AC37BC /* pwnlogo1.png */,
+				838E076116A3DA0500DD21E8 /* HTMLNode.h */,
+				838E076216A3DA0500DD21E8 /* HTMLNode.m */,
+				838E076316A3DA0500DD21E8 /* HTMLParser.h */,
+				838E076416A3DA0500DD21E8 /* HTMLParser.m */,
 				834EF85316A343DA005E87FC /* AppDelegate.h */,
 				834EF85416A343DA005E87FC /* AppDelegate.m */,
 				834EF85C16A343DA005E87FC /* MainStoryboard.storyboard */,
@@ -236,6 +265,9 @@
 				834EF85916A343DA005E87FC /* Default@2x.png in Resources */,
 				834EF85B16A343DA005E87FC /* Default-568h@2x.png in Resources */,
 				834EF85E16A343DA005E87FC /* MainStoryboard.storyboard in Resources */,
+				83AC75FF16FFFAFC00AC37BC /* pwnlogo1.png in Resources */,
+				83AC760116FFFCC100AC37BC /* photo.PNG in Resources */,
+				83AC760316FFFD1100AC37BC /* retina.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838E076716A3DA0C00DD21E8 /* HTMLNode.m in Sources */,
+				838E076816A3DA0C00DD21E8 /* HTMLParser.m in Sources */,
 				834EF85116A343DA005E87FC /* main.m in Sources */,
 				834EF85516A343DA005E87FC /* AppDelegate.m in Sources */,
 				834EF86116A343DA005E87FC /* ViewController.m in Sources */,
@@ -281,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				834EF87616A343DA005E87FC /* _00pwnTests.m in Sources */,
+				838E076516A3DA0500DD21E8 /* HTMLNode.m in Sources */,
+				838E076616A3DA0500DD21E8 /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +419,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "500pwn/500pwn-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "500pwn/500pwn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -394,6 +431,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "500pwn/500pwn-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "500pwn/500pwn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -453,6 +491,7 @@
 				834EF87B16A343DA005E87FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		834EF87C16A343DA005E87FC /* Build configuration list for PBXNativeTarget "500pwnTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +500,7 @@
 				834EF87E16A343DA005E87FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

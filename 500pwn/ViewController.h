@@ -8,6 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UITextField *userURL;
+    IBOutlet UITextField *userINT;
+    IBOutlet UIActivityIndicatorView *isRunning;
+
+    NSString *ID;
+    
+}
+
+-(IBAction)buttonDown:(id)sender;
+
+-(NSString *)signUp:(NSString *)username :(NSString *)password;
+
+-(NSString *)voteUp;
+
+-(NSString *)favUp;
+
+-(NSString *)logOut;
+
 
 @end
