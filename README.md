@@ -9,4 +9,6 @@
 
   Make sure that the extra tags on the URL aren't there, I haven't tested the app with them (ex http://500px.com/photo/29172001?from=popular&from_page=1). Only take the URL going up to the photo ID, or (http://500px.com/photo/29172001).
 
-Thanks, and remember to follow me on Twitter @rxcs and ADN @css!
+  Thanks, and remember to follow me on Twitter @rxcs and ADN @css!
+  
+  As of now I think that voting might be partially broken, some requests go throough for me and some don't. Let me know what you find.
