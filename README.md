@@ -11,4 +11,4 @@
 
   Thanks, and remember to follow me on Twitter @rxcs and ADN @css!
   
-  As of now I think that voting might be partially broken, some requests go throough for me and some don't. Let me know what you find.
+  As of now the code doesn't work, I'm not sure why. I think it has to do with static web pages or a timer of some sort, not entirely sure. I'll be testing more to see what I can do.
