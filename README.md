@@ -11,4 +11,4 @@
 
   Thanks, and remember to follow me on Twitter @rxcs and ADN @css!
   
-  The code works! However not all of the requests go through, so I suggest trying small amounts multiple tomes instead of one large bulk. Thanks for reading!
+  The code works! However not all of the requests go through, so I suggest trying small amounts multiple times instead of one large bulk. Thanks for reading!
