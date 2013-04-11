@@ -11,4 +11,4 @@
 
   Thanks, and remember to follow me on Twitter @rxcs and ADN @css!
   
-  As of now the code doesn't work, I'm not sure why. I think it has to do with static web pages or a timer of some sort, not entirely sure. I'll be testing more to see what I can do.
+  The code works! However not all of the requests go through, so I suggest trying small amounts multiple tomes instead of one large bulk. Thanks for reading!
