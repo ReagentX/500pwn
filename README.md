@@ -1,7 +1,7 @@
 500pwn
 ======
 
-  A super simple client and iOS app that circumvents 500px's user registration and allow those accounts to favorite and vote on a specific photo. This is for demonstration purposes only – I really want 500px to fix this bug.
+  A super simple PoC iOS app that circumvents 500px's user registration and allow those accounts to favorite and vote on a specific photo. This is for demonstration purposes only – I really want 500px to fix this bug.
 
   Huge thanks to @ChristopoulosZ for helping me out, both with the network sniffing and the HTML-scraping libraries. You're awesome, dude.
 
